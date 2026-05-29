@@ -1,56 +1,109 @@
-# Welcome to your Expo app 👋
+# Telecare Auth UI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern and responsive authentication UI built with React Native, Expo, and TypeScript.
 
-## Get started
+This project recreates a Telecare-inspired mobile authentication screen, focusing on clean layout structure, reusable components, responsive design, and mobile UI best practices.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+* Sign In screen UI
+* Email input field
+* Password input field
+* Show/Hide password functionality
+* Social login buttons
+* Sign Up and Forgot Password actions
+* Responsive mobile layout
+* Reusable React Native components
+* TypeScript support
+* Expo Router setup
 
-2. Start the app
+## Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+* Expo Vector Icons
 
-In the output, you'll find options to open the app in a
+## Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+src
+├── components
+│   ├── CustomInput.tsx
+│   └── SocialButton.tsx
+│
+├── constants
+│   └── colors.ts
+│
+└── screens
+    └── SignInScreen.tsx
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Screenshots
 
-### Other setup steps
+### Sign In Screen
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Add your screenshot here.
 
-## Learn more
+```md
+![Sign In Screen](./assets/screenshot.png)
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Clone the repository:
 
-## Join the community
+```bash
+git clone <your-repository-url>
+```
 
-Join our community of developers creating universal apps.
+Navigate to the project:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+cd telecare-auth-ui
+```
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Start the development server:
+
+```bash
+pnpm start
+```
+
+Run on Android:
+
+```bash
+pnpm run android
+```
+
+Run on Web:
+
+```bash
+pnpm run web
+```
+
+## Learning Goals
+
+This project was built to practice:
+
+* React Native fundamentals
+* Mobile UI development
+* Flexbox layouts
+* Component-based architecture
+* TypeScript props and typing
+* Responsive design principles
+* Expo development workflow
+
+## Design Inspiration
+
+Inspired by a Telecare authentication UI design from Dribbble.
+
+## Author
+
+Ashish
