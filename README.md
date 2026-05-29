@@ -1,23 +1,35 @@
-# Telecare Auth UI
+# 📱 Telecare Auth UI
 
-A modern and responsive authentication UI built with React Native, Expo, and TypeScript.
+A modern and responsive authentication interface built with **React Native**, **Expo**, and **TypeScript**.
 
-This project recreates a Telecare-inspired mobile authentication screen, focusing on clean layout structure, reusable components, responsive design, and mobile UI best practices.
+This project recreates a Telecare-inspired mobile authentication screen with a strong focus on clean UI implementation, reusable components, responsive layouts, and modern mobile development practices.
 
-## Features
+---
 
-* Sign In screen UI
-* Email input field
-* Password input field
-* Show/Hide password functionality
-* Social login buttons
+## ✨ Preview
+
+### Sign In Screen
+
+![Telecare Auth UI](./assets/demo.png)
+
+---
+
+## 🚀 Features
+
+* Modern authentication UI
+* Responsive mobile-first design
+* Email and password inputs
+* Password visibility toggle
+* Social authentication buttons
 * Sign Up and Forgot Password actions
-* Responsive mobile layout
-* Reusable React Native components
+* Reusable UI components
 * TypeScript support
-* Expo Router setup
+* Expo Router integration
+* Clean project architecture
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 * React Native
 * Expo
@@ -25,7 +37,9 @@ This project recreates a Telecare-inspired mobile authentication screen, focusin
 * Expo Router
 * Expo Vector Icons
 
-## Project Structure
+---
+
+## 📂 Project Structure
 
 ```text
 src
@@ -40,70 +54,76 @@ src
     └── SignInScreen.tsx
 ```
 
-## Screenshots
+---
 
-### Sign In Screen
+## ⚙️ Getting Started
 
-Add your screenshot here.
-
-```md
-![Sign In Screen](./assets/screenshot.png)
-```
-
-## Installation
-
-Clone the repository:
+### Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Ashishjha013/telecare-signin-ui.git
 ```
 
-Navigate to the project:
+### Navigate to the project
 
 ```bash
-cd telecare-auth-ui
+cd telecare-signin-ui
 ```
 
-Install dependencies:
+### Install dependencies
 
 ```bash
 pnpm install
 ```
 
-Start the development server:
+### Start the development server
 
 ```bash
 pnpm start
 ```
 
-Run on Android:
+### Run on Android
 
 ```bash
 pnpm run android
 ```
 
-Run on Web:
+### Run on Web
 
 ```bash
 pnpm run web
 ```
 
-## Learning Goals
+---
 
-This project was built to practice:
+## 🎯 Learning Outcomes
+
+This project helped strengthen understanding of:
 
 * React Native fundamentals
-* Mobile UI development
-* Flexbox layouts
 * Component-based architecture
+* Flexbox layouts
+* Mobile UI development
 * TypeScript props and typing
 * Responsive design principles
 * Expo development workflow
+* Reusable component patterns
 
-## Design Inspiration
+---
 
-Inspired by a Telecare authentication UI design from Dribbble.
+## 🎨 Design Inspiration
 
-## Author
+Inspired by a Telecare authentication UI concept from Dribbble.
 
-Ashish
+---
+
+## ✨ Author
+**Ashish Kumar Jha**
+📍 India • Backend Developer
+
+---
+
+## 📬 Contact
+- GitHub: https://github.com/Ashishjha013
+- LinkedIn: https://www.linkedin.com/in/ashishjha13
+- Email: ashishjha1304@gmail.com
