@@ -119,7 +119,7 @@ Inspired by a Telecare authentication UI concept from Dribbble.
 
 ## ✨ Author
 **Ashish Kumar Jha**
-📍 India • Backend Developer
+📍 India • Full-Stack Developer
 
 ---
 
